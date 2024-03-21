@@ -1,0 +1,36 @@
+.button{
+    display: block;
+    padding: 10px 20px;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    border: 2px solid #3498db;
+    color: #3498db;
+    transition: background-color 0.3s, color 0.3s;
+}
+.button:hover {
+    background-color: #3498db;
+    color: #fff;
+  }
+.cointainer{
+    display: flex;
+    flex-flow: column wrap;
+    margin-left: 100px;
+    margin-right: 100px;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    font-family: 'Comic Sans MS', cursive; /* Choose any fancy font you like */
+  font-size: 36px; /* Adjust size as needed */
+  color: #0a0a0a; /* Choose any color you prefer */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Add shadow for better visibility */
+  letter-spacing: 2px; /* Adjust letter spacing for better readability */
+  text-align: center; /* Align text in the center */
+  margin: 20px; /* Adjust margin as needed */
+  padding: 10px; /* Adjust padding as needed */
+}
+.image{
+    display: block;
+}

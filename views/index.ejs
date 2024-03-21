@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body> 
+    <div class="cointainer">
+        <form action="/submit" method="post">
+            <input class="button" type="submit" value="Generate">
+        </form>
+        <%if(locals.content && locals.titlee){%>
+        <h1><%= titlee%></h1>
+        <div class="image"><img src=<%= content%> alt="opss"></div>
+        <%}else{%>
+            <h1>click the button fu$*er</h1>
+        <%}%>
+    </div>
+</body>
+</html>
